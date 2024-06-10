@@ -41,7 +41,7 @@
             const followingElement = document.querySelector('#following');
             const linkElement = document.querySelector('#link');
 
-            fetch('https://github.com/users/rafaelkamada1')
+            fetch('https://api.github.com/users/rafaelkamada1')
             .then(function(res) {
                 return res.json();
             })
